@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Klartext Mono Bold";
+    src: url("KlartextMonoBold.ttf") format('truetype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Klartext Mono Bold";
+}
+
+.bodycam {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:280px;
+    height: 60px;
+    gap: 8px;
+    font-size: 18px;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+    text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+.bodycam .bodycam__logo {
+    width: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.bodycam .bodycam__logo img {
+    width: 50px;
+}
