@@ -1,6 +1,6 @@
 # Relistic Axon Bodycam Overlay
 
-Hi, just clone the repo, there are a couple of functions that update the date and time and generates a random ID for the bodycam. There are some comments about it.
+Hi, there are a couple of functions that update the date and time and generates a random ID for the bodycam. There are some comments about it.
 
 Some examples above:
 
